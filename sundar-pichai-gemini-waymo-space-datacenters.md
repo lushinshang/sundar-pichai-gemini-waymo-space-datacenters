@@ -38,11 +38,11 @@ Alphabet 2026 年第二季的自由現金流（大致是營運賺進的現金，
 
 Pichai 第一句話是：「是我們所看到的需求訊號的強度與持久性。」（[23:27](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1407s)）
 
-這句話撐得住多少？訪談前半幾乎都繞著這一題。Pichai 一開場就說 Argon 上線時容量吃緊（[00:54](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=54s)），後面談到運算資源是兩年前就得決定的事、談到泡沫、談到太空資料中心，幾乎都回到同一個問題：**需求夠不夠真，真到值得在現金流轉負時繼續加碼**。
+這句話撐得住多少？Pichai 一開場就說 Argon 上線時容量吃緊（[00:54](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=54s)），後面談運算資源是兩年前就得決定的事、談泡沫、談太空資料中心，話題一路繞回同一處：**需求夠不夠真，真到值得在現金流轉負時繼續加碼**。
 
 這篇導讀把他的主要說法，一項一項對上 Google 自家公告、財報和外部報導，看哪些有書面佐證，哪些是他的自述，哪些主持人說得比事實更寬。文中括號標示可信度：已確認＝有官方或一手文件佐證，且至少兩路查證一致；當事方自揭＝只有 Pichai 或所屬公司自己的說法；單方說法＝只有單一來源或單一方的說詞；有爭議＝來源之間互相衝突。
 
-先講幾件事。影片中穿插三段業配（約 [05:30](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=330s) 到 06:20、[29:45](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1785s) 到 33:18，以及 [57:57](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=3477s) 之後的片尾），邊界以字幕實際時間為準，本文不當內容。訪談錄在 Alphabet 第三季財報之前，第三季財報要到 10 月 28 日才公布（[Alphabet](https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx)），所以本文引用的財報最新到 2026 年第二季，資料截至 2026-10-25。
+影片中穿插三段業配（約 [05:30](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=330s) 到 06:20、[29:45](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1785s) 到 33:18，以及 [57:57](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=3477s) 之後的片尾），邊界以字幕實際時間為準，本文不當內容。訪談錄在 Alphabet 第三季財報之前，第三季財報要到 10 月 28 日才公布（[Alphabet](https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx)），所以本文引用的財報最新到 2026 年第二季，資料截至 2026-10-25。
 
 ![訪談 16 個章節的時間軸，色塊長度依各章秒數占總長 3549 秒的比例，業配段以灰色斜線標出。](images/fig-chapter-timeline-zh.svg)
 
@@ -106,7 +106,7 @@ Pichai 接這個問題時，講的是另一個案例，Chromium。他說內部�
 
 Google 官方在 Argon 發表文裡有同一件事：把核心網頁處理從 Chromium 約 4,000 萬行程式碼中約 600 萬行的舊目錄分離，跨數百個檔案重構，「數個月的工作在數週內完成」，並預期消除一整類瀏覽器當機（[Google，2026-10-13](https://blog.google/intl/en-in/products/introducing-gemini-4-argon/)）。**這是 Google 自述，沒有第三方量測**（當事方自揭）；「消除一整類當機」是預期。
 
-他的結論是：「我認為在某種程度上，我將 2027 年視為我們生產力前沿的黃金年代」（[10:01](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=601s)），原因是新一代模型加上「我們將其與內部環境整合得如此良好」（[10:12](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=612s)）。前一句把功勞給模型，後一句把功勞給與內部環境的整合，第八節談 harness 時會回到這一點。這是意見與預期，無法查證。
+他的結論是：「我認為在某種程度上，我將 2027 年視為我們生產力前沿的黃金年代」（[10:01](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=601s)），原因是新一代模型加上「我們將其與內部環境整合得如此良好」（[10:12](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=612s)）。功勞分給模型和內部整合兩邊，後者第八節談 harness 時會再出現。這是意見與預期，無法查證。
 
 ## 四、遞迴自我改進：一個連續譜，加一句預測
 
@@ -126,7 +126,7 @@ Pichai 也順口舉了別家：數學這類可驗證領域，「就像 OpenAI �
 
 官方的信是 8 月 5 日發的，署名 Pichai 與 Hassabis（[Google，The next chapter of our AI momentum](https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/)；日期依 [9to5Google](https://9to5google.com/2026/08/05/demis-hassabis-deepmind/) 與 Investing.com 報導）。信裡寫：Demis 成為 GDM 的 Chair 和 Alphabet 的 Chief Scientist，同時繼續領導 Isomorphic Labs；Koray 從 GDM 的 CTO 兼 Chief AI Architect 升任 SVP of Google DeepMind，向 Pichai 報告，負責 Gemini 模型研發、前沿 AI 研究、Gemini app 與開發者團隊；Jeff Dean 在 Google 27 年後，與 Google Senior Fellow Sanjay Ghemawat 成立獨立的公益公司，Google 是創始投資人與雲端夥伴。（已確認）
 
-**所以主持人和 Pichai 都對：Demis 是 Chair 也是 Alphabet 首席科學家。**要小心的是兩處。一是 Koray 的官方職稱是 SVP，主持人說「掌舵 DeepMind」是口語；二是官方信沒有出現 Discovery Loop 這個名稱，名稱來自 9to5Google 和 Wired 報導，字幕沒有聽錯。另外，公司是 Dean 與 Ghemawat 一起成立的。
+**所以主持人和 Pichai 都對：Demis 是 Chair 也是 Alphabet 首席科學家。**細節上有兩處要留意。Koray 的官方職稱是 SVP，主持人說「掌舵 DeepMind」是口語。官方信也沒有出現 Discovery Loop 這個名稱，名稱來自 9to5Google 和 Wired 報導，字幕沒有聽錯；公司則是 Dean 與 Ghemawat 一起成立的。
 
 主持人要他回應外界的臆測（「也許你能平息一些謠言」，[16:16](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=976s)）。Pichai 繞開內幕，從結構講起：前沿模型開發如今是「極為耗費心力」的事，「從資料、運算資源、演算法工作，一路到管理團隊」（[16:56](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1016s)–[17:22](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1042s)）；Demis 想把更多時間花在 AI 安全，以及把 AGI 用在藥物探索、機器人、醫療（[17:41](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1061s)–[18:09](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1089s)）；模型開發「某種程度上……已經是一個相當成熟的流程」，所以讓 Koray 接手（[18:21](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1101s)）。官方信對 Hassabis 新角色的描述與此一致。
 
@@ -134,7 +134,7 @@ DeepMind 和 Google 其他部門的關係，Pichai 說這是多年來的自然�
 
 ## 六、運算資源這筆帳：兩年前的決定，與信心從哪來
 
-主持人問他怎麼在長期研究和近期產品之間分配運算資源。Pichai 的回答先講底線：「我們很長一段時間以來都是一家 AI 優先的公司」，承諾投入前沿研究與模型開發所需的運算資源，這是規劃的基本出發點；除此之外，各業務單位例如雲端團隊有自己的長期規劃與營收預測，Google 據此為他們規劃運算資源（[20:49](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1249s)–[21:12](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1272s)）。也就是研究墊底、業務往上疊；兩者衝突時誰讓誰，他沒有說。
+主持人問他怎麼在長期研究和近期產品之間分配運算資源。Pichai 先講底線：「我們很長一段時間以來都是一家 AI 優先的公司」，承諾投入前沿研究與模型開發所需的運算資源，這是規劃的基本出發點；除此之外，各業務單位例如雲端團隊有自己的長期規劃與營收預測，Google 據此為他們規劃運算資源（[20:49](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1249s)–[21:12](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1272s)）。也就是研究墊底、業務往上疊；兩者衝突時誰讓誰，他沒有說。
 
 然後是這場訪談最具體的一段時間描述。「請記住，我們的運算資源都是自己建置的，對吧？那需要很長的前置時間。」（[21:31](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1291s)）所以：「在任何一個時間點，你都得承受自己 2 年前做出的所有運算資源決策。」（[21:38](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1298s)）他接著說，今天沒有任何一家公司敢說 2 年前的決定現在看來是對的（[22:02](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1322s)）。這等於把現在的容量吃緊，解釋成兩年前的押注還沒蓋完；**照同樣的邏輯，今天的支出對不對，也要兩年後才看得出來。**
 
@@ -143,9 +143,9 @@ DeepMind 和 Google 其他部門的關係，Pichai 說這是多年來的自然�
 - **現金流**：負 58.55 億美元是 2026 年第二季（4 到 6 月）、Alphabet 自己定義的自由現金流；過去 12 個月合計仍是正 532.73 億（[SEC 8-K](https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000066/googexhibit991q22026.htm)）。「自公司 IPO 以來首次」是主持人的說法，Alphabet 的財報稿沒有這句；引用 Dow Jones 市場資料的二手報導有這個說法，BBC 轉載稿寫的是「近十年來第一次」。（已確認數字；「首次」的範圍為單方說法）
 - **資本支出指引**：7 月 22 日第二季電話會議上調的是 2026 年的指引，從 1,800 到 1,900 億美元調到 1,950 到 2,050 億美元；財務長另說「我們持續預期 2027 年的資本支出將顯著增加，細節稍後提供」，語氣是延續先前說法（「as we previously shared」），沒有數字（[官方逐字稿](https://s206.q4cdn.com/479360582/files/doc_events/2026/Jul/22/2026_Q2_Earnings_Transcript.pdf)）。主持人說的「上調 2027 年指引」並不精確。（已確認）
 
-Pichai 的回答列了五層信心（[23:27](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1407s)–[25:05](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1505s)）：從消費端到企業端的多元需求訊號；Google 自己內部使用 AI 的需求；獨立於需求之外、客觀評估能力前沿的曲線（成本、新舊模型對比、任務複雜度、內部評測）；研究突破讓他判斷「Gemini 5.0 會不會比 Argon 好很多；答案是會」（[24:38](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1478s)）；最後是「我們也有穩定的長期合約，附帶已承諾營收，而且正在簽訂中。所以，這不只是抱著希望，對吧？」（[24:56](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1496s)–[25:02](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1502s)）
+他列了五層信心（[23:27](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1407s)–[25:05](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1505s)）：從消費端到企業端的多元需求訊號；Google 自己內部使用 AI 的需求；獨立於需求之外、客觀評估能力前沿的曲線（成本、新舊模型對比、任務複雜度、內部評測）；研究突破讓他判斷「Gemini 5.0 會不會比 Argon 好很多；答案是會」（[24:38](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1478s)）；最後是「我們也有穩定的長期合約，附帶已承諾營收，而且正在簽訂中。所以，這不只是抱著希望，對吧？」（[24:56](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1496s)–[25:02](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1502s)）
 
-五層裡可以從外面驗證的只有最後一層。第二季電話會議公布 Google Cloud 未交付訂單（backlog）到季底是 5,140 億美元，公司預期其中略超過一半會在 24 個月內認列為營收（[官方逐字稿](https://s206.q4cdn.com/479360582/files/doc_events/2026/Jul/22/2026_Q2_Earnings_Transcript.pdf)）。（已確認）前四層，內部評測曲線、內部需求、對 5.0 的判斷，都是 Google 自己才看得到的資料。
+五層裡可以從外面驗證的只有最後一層。第二季電話會議公布 Google Cloud 未交付訂單（backlog）到季底是 5,140 億美元，公司預期其中略超過一半會在 24 個月內認列為營收（[官方逐字稿](https://s206.q4cdn.com/479360582/files/doc_events/2026/Jul/22/2026_Q2_Earnings_Transcript.pdf)）。（已確認）前四層，多元的需求訊號、Google 自己的使用、內部評測曲線、對 5.0 的判斷，都是 Google 自己才看得到的資料。
 
 > 重點：最硬的那一層是合約，而那是已簽約、還沒認列的既有訂單，跟他說的「正在簽訂」的新合約不是同一個數字。
 
@@ -155,7 +155,7 @@ Pichai 的回答列了五層信心（[23:27](https://www.youtube.com/watch?v=fJB
 
 主持人把問題推到產業：CoreWeave 是最新的例子，大家也擔心新興雲端業者（neocloud）的融資，這個市場會不會「衝過頭」了（[25:28](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1528s)）。CoreWeave 這週確實承壓：10 月 20、21 日前後股價與債券走弱（CNBC、Morningstar 報導），是融資與市場信心的壓力，沒有倒閉或違約（單方說法，經轉述）。
 
-Pichai 的回答有一個很容易漏掉的轉折。他先說：「我想沒有人會覺得這就像過去那場泡沫。這不是光纖那種情況，對吧？」接著是「我們正在使用這些資源」、「我們的資源非常吃緊」，而且「現在這些資源確實在發揮實際價值」（[28:36](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1716s)–[28:52](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1732s)）。接著他把話分成兩件事：「但這不代表整個產業或經濟就不會集體投資過頭，或是……也不代表系統不會遭遇我們無法控制的衝擊」（[28:58](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1738s)–[29:06](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1746s)）。
+這段回答有個很容易漏掉的轉折。Pichai 先說：「我想沒有人會覺得這就像過去那場泡沫。這不是光纖那種情況，對吧？」接著是「我們正在使用這些資源」、「我們的資源非常吃緊」，而且「現在這些資源確實在發揮實際價值」（[28:36](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1716s)–[28:52](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1732s)）。話鋒隨即一轉：「但這不代表整個產業或經濟就不會集體投資過頭，或是……也不代表系統不會遭遇我們無法控制的衝擊」（[28:58](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1738s)–[29:06](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1746s)）。
 
 **他把需求是真的，和整個產業不會投資過頭拆成兩件事**：前者他拿 Google 自己的容量吃緊當證據；後者他不打包票，只說自己把精力放在「我們能掌控的事情上」：長期觀點、多年累積的預測與建模、有紀律的投資（[29:13](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1753s)–[29:34](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=1774s)）。第六節那些信心，說的就是這個「我們能掌控的」部分。至於整個市場是否過熱，他說自己花的心思比較少。
 
@@ -173,7 +173,7 @@ Pichai 的回答有一個很容易漏掉的轉折。他先說：「我想沒有�
 
 兩件事分開查。Spark 在 5 月 19 日 I/O 發表，官方稱它是 24 小時運作的個人 AI agent，在雲端執行，即使你關掉筆電也持續工作，花錢、寄信這類高風險動作前會請你確認（[Google，2026-05-19](https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/)）。初期是受信任測試者，之後在美國對 AI Ultra 訂閱者開放 Beta；7 月的財報電話會議上 Pichai 說 Spark「已在美國與國際提供」（[官方逐字稿](https://s206.q4cdn.com/479360582/files/doc_events/2026/Jul/22/2026_Q2_Earnings_Transcript.pdf)）。「Gemini Workspace」不是官方產品名，查不到；內容對得上的是 10 月 8 日 Gemini at Work 活動發表的 Gemini agent，官方文章寫 agent 會有自己的 Workspace 帳號，含電子郵件、行事曆、Drive，並出現在公司通訊錄，coworker agent 使用 `@agents.company.com` 之類的信箱（[Google Cloud，2026-10-09](https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026)）。（已確認事件；主持人用語與官方產品名不同）
 
-Pichai 的回答有兩個要拆開看的主張。第一個：「說清楚一點，企業版和消費者版使用的是同一個模型、同一個 harness、同一個執行環境。不同之處只在於企業或個人所擁有的脈絡不同。」（[36:31](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2191s)–[36:40](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2200s)）harness 指包在模型外面、負責呼叫工具與管理流程的那層程式。第二個：企業功能因為為企業打造，所以「我們基本上會為每項任務配置一個 micro VM 去完成它，讓它安全地 24/7 執行，並進行即時監控」（[36:54](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2214s)），也就是每項任務各開一台隔離的小型虛擬機。
+這段回答裡有兩個主張要拆開看。第一個：「說清楚一點，企業版和消費者版使用的是同一個模型、同一個 harness、同一個執行環境。不同之處只在於企業或個人所擁有的脈絡不同。」（[36:31](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2191s)–[36:40](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2200s)）harness 指包在模型外面、負責呼叫工具與管理流程的那層程式。第二個：企業功能因為為企業打造，所以「我們基本上會為每項任務配置一個 micro VM 去完成它，讓它安全地 24/7 執行，並進行即時監控」（[36:54](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2214s)），也就是每項任務各開一台隔離的小型虛擬機。
 
 對照 Google 的兩篇官方文章，沒有出現 micro VM 或 24/7。官方的詞是 Agent Sandbox（有自己的網路邊界）、工作可在你關掉筆電之後持續數小時到數天、可用可觀測性工具即時監看稽核紀錄、另有 Agent Gateway 當 AI 網路防火牆；文章也提到 agent 執行程式時會啟動虛擬機，但沒說每項任務一台。意思相近，但**每項任務一個 micro VM 是 Pichai 的說法**，企業版與消費者版同一套模型、harness、執行環境也是他的說法，官方文章沒有這個宣稱（當事方自揭）。他接著說「我們也會把這一切帶給消費者」（[37:11](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2231s)），那是計畫。
 
@@ -185,15 +185,19 @@ Pichai 的回答有兩個要拆開看的主張。第一個：「說清楚一點�
 
 主持人說，現在 agent 像人一樣操作瀏覽器完成任務，「感覺就像把三角形硬塞進正方形裡」，網路是否需要為 agent 改變（[38:37](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2317s)–[39:08](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2348s)）。
 
-Pichai 說技術前沿會領先於生態系，所以 MCP（Model Context Protocol，讓模型連接外部工具的協定）、agent 協定、支付協定才有這麼大的推動力，「就像我們與一些公司一起推動的 UCP 一樣」（[39:41](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2381s)）。UCP 全名 Universal Commerce Protocol，2026 年 1 月 11 日在 NRF 大會上由 Google 發表（[NRF 講稿](https://blog.google/company-news/inside-google/message-ceo/nrf-2026-remarks/)），Google 與 Shopify、Etsy、Wayfair、Target、Walmart 共同打造，官方定位是開源的商務協定，涵蓋從商品探索到訂單管理，並與另一個 Agent Payments Protocol（AP2）相容，付款部分透過 AP2 支援（[Google Developers Blog](https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/)）。所以 Pichai 把它放在「支付協定」一類是口語歸類。（已確認）
+Pichai 說技術前沿會領先於生態系，所以 MCP（Model Context Protocol，讓模型連接外部工具的協定）、agent 協定、支付協定才有這麼大的推動力，「就像我們與一些公司一起推動的 UCP 一樣」（[39:41](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2381s)）。
+
+UCP 全名 Universal Commerce Protocol，2026 年 1 月 11 日在 NRF 大會上由 Google 發表（[NRF 講稿](https://blog.google/company-news/inside-google/message-ceo/nrf-2026-remarks/)），Google 與 Shopify、Etsy、Wayfair、Target、Walmart 共同打造，官方定位是開源的商務協定，涵蓋從商品探索到訂單管理，並與另一個 Agent Payments Protocol（AP2）相容，付款部分透過 AP2 支援（[Google Developers Blog](https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/)）。所以 Pichai 把它放在「支付協定」一類是口語歸類。（已確認）
 
 他對兩條路都不排斥：他說會經歷「一段混亂的演進」，希望朝更互通的標準走；操作瀏覽器、computer use「也是一種非常優雅的工作方式，因為這就是你身為使用者會做的事」，還能讓使用者留在迴路中；但協定「擴展性高得多」，只是需要更長的時間（[39:53](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2393s)–[40:38](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2438s)）。
 
 主持人接著說：「比方說 Amazon 已經封鎖了 Muse。」（[40:51](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2451s)）Muse 是 Meta 的個人 AI agent，9 月 8 日在美國推出（[Meta](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/)）；Amazon 在 9 月 20 日封鎖它在 Amazon.com 購物，使用者看到的訊息是未經授權的 AI agent 持續存取違反使用條件（[Implicator 報導](https://www.implicator.ai/amazon-blocks-meta-muse-shopping-agent/)、[Adweek](https://www.adweek.com/commerce/amazon-locks-out-metas-muse-in-agentic-shopping-standoff/)）。Amazon 的說法是 Meta 事前未告知、agent 瀏覽時未表明身分，並疑似擷取客戶憑證；Meta 說 Muse 看不到密碼與付款方式。兩邊說法各自標註，憑證擷取的指控沒有獨立驗證。（事件已確認；Amazon 與 Meta 的說法互相衝突，有爭議）
 
-主持人真正問的是廣告：Google 有龐大、需要使用者互動的廣告業務，agent 會對這類介面造成什麼影響（[40:55](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2455s)）。Pichai 的回答是「長遠來看，正確的答案是把使用者放在第一位」，最終必須對所有提供價值的企業行得通，會達到平衡又位移，並舉了網際網路剛出現時大家以為房地產買賣會一夜改變，結果大部分情況跟 20 年前差不多（[41:04](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2464s)–[42:00](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2520s)）。**他的回答停在原則層次，沒有談到廣告收入。**
+主持人真正問的是廣告：Google 有龐大、需要使用者互動的廣告業務，agent 會對這類介面造成什麼影響（[40:55](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2455s)）。Pichai 先講「長遠來看，正確的答案是把使用者放在第一位」，最終必須對所有提供價值的企業行得通，會達到平衡又位移，並舉了網際網路剛出現時大家以為房地產買賣會一夜改變，結果大部分情況跟 20 年前差不多（[41:04](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2464s)–[42:00](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2520s)）。**他的回答停在原則層次，沒有談到廣告收入。**
 
-最後是 Search 和 Gemini 會不會合流。主持人說「Gemini 有 10 億使用者，搜尋有數十億使用者」（[42:41](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2561s)）。Gemini app 的部分有官方數字：8 月 11 日 Google 宣布月活超過 10 億（[Google](https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/)）；搜尋的全體使用者數沒有查到最新官方數字，只有第二季電話會議說 AI Mode 月活超過 10 億、Gemini app 月活 9.5 億（[官方逐字稿](https://s206.q4cdn.com/479360582/files/doc_events/2026/Jul/22/2026_Q2_Earnings_Transcript.pdf)）。Pichai 的回答是不談合併，談「agent 層」：personal intelligence 可以在 Gemini 和搜尋中都開啟，「它掌握你的脈絡」；他期待 agent 在雲端 24/7 運作，「因此能從你中斷的地方接續處理」，由它來提供統一體驗（[42:55](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2575s)–[43:43](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2623s)）。personal intelligence 的範圍有限制：3 月 17 日起美國免費使用者可在搜尋 AI Mode 使用（[Google](https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/)），4 月中旬起陸續向 Google AI Plus、Pro、Ultra 訂閱者推出，需自行開啟並選擇要連結的 Google 應用程式（[Google，2026-04-14](https://blog.google/intl/en-in/products/personal-intelligence-launches-in-the-gemini-app-in-india/)）；歐洲經濟區、瑞士、英國、南韓、澳洲與奈及利亞當時不在內（[Google，2026-04-24](https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-april-2026/)）。（已確認；範圍截至 2026 年 4 月）
+最後是 Search 和 Gemini 會不會合流。主持人說「Gemini 有 10 億使用者，搜尋有數十億使用者」（[42:41](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2561s)）。Gemini app 的部分有官方數字：8 月 11 日 Google 宣布月活超過 10 億（[Google](https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/)）；搜尋的全體使用者數沒有查到最新官方數字，只有第二季電話會議說 AI Mode 月活超過 10 億、Gemini app 月活 9.5 億（[官方逐字稿](https://s206.q4cdn.com/479360582/files/doc_events/2026/Jul/22/2026_Q2_Earnings_Transcript.pdf)）。Pichai 避開合併，改談「agent 層」：personal intelligence 可以在 Gemini 和搜尋中都開啟，「它掌握你的脈絡」；他期待 agent 在雲端 24/7 運作，「因此能從你中斷的地方接續處理」，由它來提供統一體驗（[42:55](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2575s)–[43:43](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2623s)）。
+
+personal intelligence 的範圍有限制：3 月 17 日起美國免費使用者可在搜尋 AI Mode 使用（[Google](https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/)），4 月中旬起陸續向 Google AI Plus、Pro、Ultra 訂閱者推出，需自行開啟並選擇要連結的 Google 應用程式（[Google，2026-04-14](https://blog.google/intl/en-in/products/personal-intelligence-launches-in-the-gemini-app-in-india/)）；歐洲經濟區、瑞士、英國、南韓、澳洲與奈及利亞當時不在內（[Google，2026-04-24](https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-april-2026/)）。（已確認；範圍截至 2026 年 4 月）
 
 ## 十、太空資料中心：衛星「運作良好」是什麼意思
 
@@ -201,9 +205,13 @@ Pichai 說技術前沿會領先於生態系，所以 MCP（Model Context Protoco
 
 Pichai 的回答是：「它運作良好，而且我想我們將有機會向那些 TPU 打個招呼，這讓我感到非常興奮。」TPU 是 Google 自製的 AI 晶片。他還說發射進行時自己有看（字幕原話是「在這裡觀看」）（[44:15](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2655s)–[44:24](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2664s)）。
 
-「打個招呼」聽起來是 TPU 還沒正式開始測試。Google 研究團隊 10 月 1 日當天的公告（署名 Travis Beals）寫：原型衛星與 Planet 合作打造，搭乘 SpaceX 的 Transporter-18 共乘任務入軌，「團隊已確認與衛星取得聯繫，運作如預期」；接下來「數週內」才會蒐集 TPU 如何承受太空的物理應力、輻射與極端溫度的在軌資料（[Google，2026-10-01](https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/)）。NPR 的報導補了細節：衛星由 Planet 先讓它上線，Google 之後才開機測 TPU，並載有 4 顆 TPU，這個顆數 Google 公告沒有寫（[NPR，經 WUNC 轉載](https://www.wunc.org/2026-10-01/google-launches-project-suncatcher-a-step-towards-ai-data-centers-in-space)）。這是一顆小型原型，不是資料中心；截至 10 月 25 日，本文沒有查到 TPU 運算結果的公開報告。（已確認發射與取得聯繫；「運作良好」指的是聯繫正常，TPU 的表現仍待公布）
+「打個招呼」聽起來是 TPU 還沒正式開始測試。Google 研究團隊 10 月 1 日當天的公告（署名 Travis Beals）寫：原型衛星與 Planet 合作打造，搭乘 SpaceX 的 Transporter-18 共乘任務入軌，「團隊已確認與衛星取得聯繫，運作如預期」；接下來「數週內」才會蒐集 TPU 如何承受太空的物理應力、輻射與極端溫度的在軌資料（[Google，2026-10-01](https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/)）。
 
-為什麼是太空？對話裡先有一個論點：從能源可用性的第一原理看，太陽同步軌道可以取得 24/7 的能源，「這是個相當充分的理由」（字幕沒有說話者標記，這句的歸屬不確定）。Pichai 接著補了自己的：地球上受限的實體空間；資料中心今天看起來大，「只是相較於 10 年前而言顯得格外龐大」，很難把未來 20 年的運算需求用指數外推（[45:20](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2720s)–[46:06](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2766s)）。這裡有個軌道的細節：NPR 在 10 月 2 日更正，這顆原型星**不在太陽同步軌道**，且使用電池；晨昏太陽同步軌道、近乎恆定日照是 Google 研究團隊 2025 年 11 月提出的未來衛星設計（[Google Research，2025-11-04](https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/)）。**所以 24/7 能源是構想中的理由，這次的試驗並沒有驗證它。**
+NPR 的報導補了細節：衛星由 Planet 先讓它上線，Google 之後才開機測 TPU，並載有 4 顆 TPU，這個顆數 Google 公告沒有寫（[NPR，經 WUNC 轉載](https://www.wunc.org/2026-10-01/google-launches-project-suncatcher-a-step-towards-ai-data-centers-in-space)）。這是一顆小型原型，不是資料中心；截至 10 月 25 日，本文沒有查到 TPU 運算結果的公開報告。（已確認發射與取得聯繫；「運作良好」指的是聯繫正常，TPU 的表現仍待公布）
+
+為什麼是太空？對話裡先有一個論點：從能源可用性的第一原理看，太陽同步軌道可以取得 24/7 的能源，「這是個相當充分的理由」（字幕沒有說話者標記，這句的歸屬不確定）。Pichai 接著補了自己的：地球上受限的實體空間；資料中心今天看起來大，「只是相較於 10 年前而言顯得格外龐大」，很難把未來 20 年的運算需求用指數外推（[45:20](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2720s)–[46:06](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2766s)）。
+
+軌道有個細節：NPR 在 10 月 2 日更正，這顆原型星不在太陽同步軌道，且使用電池；晨昏太陽同步軌道、近乎恆定日照是 Google 研究團隊 2025 年 11 月提出的未來衛星設計（[Google Research，2025-11-04](https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/)）。**所以 24/7 能源是構想中的理由，這次的試驗並沒有驗證它。**
 
 時間感也要放對。Pichai 說這跟當初啟動 Waymo 沒什麼兩樣，他回憶飛到沙漠看 Stanley 參加 DARPA 大挑戰賽，「10 到 20 年是一段很長的時間」（[44:35](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2675s)–[45:07](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2707s)）。Suncatcher 的負責人 Travis Beals 對 NPR 說，經濟上可行的太空資料中心「很可能超過五年」才會到（[NPR](https://www.wunc.org/2026-10-01/google-launches-project-suncatcher-a-step-towards-ai-data-centers-in-space)，單方說法）。主持人問它會不會是下一個從 Alphabet 獨立的公司，Pichai 說「我們還沒有仔細考慮過組織架構」，他把它看成未來擴展運算資源的方式，是登月計畫（[47:18](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2838s)–[47:31](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2851s)）。
 
@@ -211,7 +219,9 @@ Pichai 的回答是：「它運作良好，而且我想我們將有機會向那�
 
 **Waymo。** Pichai 說：「我們每週付費乘車次數剛剛突破 50 萬次」，多倫多即將上線，今年新增 10 個城市（[48:44](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2924s)–[48:57](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2937s)）。
 
-對照公開紀錄，這三件事的時間點都要調整。每週 50 萬次付費乘車，Waymo 3 月 26 日就對外說過（當時 10 個市場；[InsideEVs](https://insideevs.com/news/791245/waymo-rides-per-week-2026-doubled/)），9 月仍有報導引用「約 50 萬」，10 月沒有找到更新的官方數字（單方說法）；「剛剛突破」與公開時間線對不上，可能是口誤，也可能有未公開的新數字。多倫多是 10 月 16 日宣布獲安大略自駕試驗計畫核准，先做高精地圖與有人在方向盤後的驗證，載客目標在 2028 年（[Waymo 部落格](https://blog.waymo.com/blog/2026/10/waymo-in-toronto/)；核准見 [Waymo 加拿大問答](https://waymo.com/waymo-in-canada/)），「即將上線」說得比事實更近。（已確認）新增 10 個城市，外部報導的付費城市從年初到 9 月約新增 10 個左右，各家算法不同，沒有官方清單（單方說法）。
+對照公開紀錄，這三件事的時間點都要調整。每週 50 萬次付費乘車，Waymo 3 月 26 日就對外說過（當時 10 個市場；[InsideEVs](https://insideevs.com/news/791245/waymo-rides-per-week-2026-doubled/)），9 月仍有報導引用「約 50 萬」，10 月沒有找到更新的官方數字（單方說法）；「剛剛突破」與公開時間線對不上，可能是口誤，也可能有未公開的新數字。
+
+多倫多是 10 月 16 日宣布獲安大略自駕試驗計畫核准，先做高精地圖與有人在方向盤後的驗證，載客目標在 2028 年（[Waymo 部落格](https://blog.waymo.com/blog/2026/10/waymo-in-toronto/)；核准見 [Waymo 加拿大問答](https://waymo.com/waymo-in-canada/)），「即將上線」說得比事實更近。（已確認）至於新增 10 個城市，外部報導的付費城市從年初到 9 月約新增 10 個左右，各家算法不同，沒有官方清單（單方說法）。
 
 最需要注意的是安全數字。他說：「目前行駛的嚴重事故已經比一般駕駛少了 95%」（[49:28](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=2968s)）。機器字幕寫成 *95% fewer seas crashes*，音訊無法判定原詞，本文依官方數字推定是 serious crashes（嚴重事故），這一句不當論據。官方頁面標題寫的是「95% fewer serious injury or worse crashes」，表格內是「嚴重傷害以上事故」減少 94.82%，資料至 2026 年 6 月、累計 2.713 億英里無人駕駛里程，比較基準是同區域人類駕駛、僅一般道路、不含高速公路；同一頁「任何傷害」的減幅是 82%（[Waymo Safety Impact](https://waymo.com/safety/impact)）。這是 Waymo 自行發布的比較。（當事方自揭，Waymo 自行發布）
 
@@ -223,7 +233,9 @@ Pichai 自己的說法比較保守：他預期 2027 年「會大幅提高配送�
 
 ## 十二、監管與量子：兩段都是立場與預測
 
-**監管。** 主持人提到 Demis 提議成立類似 FINRA（美國證券業的自律監管機構）的機構，還說 Pichai「簽了白宮與所有其他科技業執行長一起做的那個東西」（[51:48](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=3108s)–[52:01](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=3121s)）。字幕沒有說那是什麼。Hassabis 7 月 14 日在 X 發文並向 Axios 說明，提案成立由美國主導、由 AI 實驗室出資、受政府監督的標準機構，上線前測試前沿模型；初期自願，目前仍是提案（[The Next Web](https://thenextweb.com/news/demis-hassabis-frontier-ai-standards-body-finra)，單方說法）。白宮的文件是 9 月 29 日發布的《White House Accord on Super Intelligence: Joint Commitment on Frontier Responsibilities》，文件以「we believe」「committed」表述，沒有描述強制或罰則，並說日後「可能適合納入法律或法規」，內容是公司應建立四層控制與稽核，包含獨立的外部稽核或評估者；簽署人包含 Pichai，另有 Trump、Amodei、Zuckerberg、Brockman、Musk、Huang（[美國總統計畫典藏](https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence)）。
+**監管。** 主持人提到 Demis 提議成立類似 FINRA（美國證券業的自律監管機構）的機構，還說 Pichai「簽了白宮與所有其他科技業執行長一起做的那個東西」（[51:48](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=3108s)–[52:01](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=3121s)）。字幕沒有說那是什麼。Hassabis 7 月 14 日在 X 發文並向 Axios 說明，提案成立由美國主導、由 AI 實驗室出資、受政府監督的標準機構，上線前測試前沿模型；初期自願，目前仍是提案（[The Next Web](https://thenextweb.com/news/demis-hassabis-frontier-ai-standards-body-finra)，單方說法）。
+
+白宮的文件是 9 月 29 日發布的《White House Accord on Super Intelligence: Joint Commitment on Frontier Responsibilities》，文件以「we believe」「committed」表述，沒有描述強制或罰則，並說日後「可能適合納入法律或法規」，內容是公司應建立四層控制與稽核，包含獨立的外部稽核或評估者；簽署人包含 Pichai，另有 Trump、Amodei、Zuckerberg、Brockman、Musk、Huang（[美國總統計畫典藏](https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence)）。
 
 Pichai 的回答分兩部分。先是標準化：像金融世界有會計準則、有專業會計師事務所這類獨立評估者，AI 也需要「更好的評測（evals）」和更好的標準，「未來會有需要我們做更多事情的時候」，但要做對，因為現在做的任何事「在 12 個月後可能都顯得遠遠不足，或乾脆就是錯的」（[53:07](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=3187s)–[53:55](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=3235s)）。再來才是他的主要主張：「更統一的法規，而不是各州各自為政的拼湊式法規」，因為拼湊「會讓產業倒退，而且實際上本質上會變得更不安全」（[54:57](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=3297s)–[55:06](https://www.youtube.com/watch?v=fJBSNEFdm8c&t=3306s)）。這是 Pichai 的立場。
 
@@ -250,7 +262,9 @@ Pichai 的回答分兩部分。先是標準化：像金融世界有會計準則�
 
 Pichai 在這場訪談裡說了很多數字，但可以從外面驗證的比例不高。能對上書面資料的，多半是日期、職稱、產品名稱和別人公布的事實：Argon 的開放時程、DeepMind 的人事、第二季自由現金流、UCP 的全名、Waymo 的官方安全頁。對不上的，多半是他自己才看得到的東西：25 兆 token、內部評測曲線、需求訊號、micro VM 的成本。這不代表它們有問題，只是讀者在引用時該分開講。
 
-他的核心論證可以用一句話概括：容量吃緊是真的，因為自己在用；現在的支出是兩年前押注的結果；產業可能過頭，但他把注意力放在自己能掌控的部分。三個環節裡，第一個有 Google 自己的行為佐證（分階段開放、設限），第二個是自述，第三個他沒有反駁，只說自己較少去想。如果你要拿這場訪談當簡報素材，最穩的用法是引他的時間線（兩年前的決定、兩年後的檢驗）和他自己畫的界線（需求真實與產業過頭是兩件事），數字則寫成「Pichai 說」。
+他的核心論證可以用一句話概括：容量吃緊是真的，因為自己在用；現在的支出是兩年前押注的結果；產業可能過頭，但他把注意力放在自己能掌控的部分。三個環節裡，第一個有 Google 自己的行為佐證（分階段開放、設限），第二個是自述，第三個他沒有反駁，只說自己較少去想。
+
+如果你要拿這場訪談當簡報素材，最穩的用法是引他的時間線（兩年前的決定、兩年後的檢驗）和他自己畫的界線（需求真實與產業過頭是兩件事），數字則寫成「Pichai 說」。
 
 > 重點：在這場訪談裡，最硬的信心證據是已簽約的合約與官方日期，其餘多是只有 Google 看得到的內部訊號。
 
