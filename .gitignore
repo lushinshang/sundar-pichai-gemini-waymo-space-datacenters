@@ -1,0 +1,7 @@
+qa_*.png
+*.normalized.md
+research/audio/
+research/tri/
+research/agy/
+qa/
+.DS_Store
